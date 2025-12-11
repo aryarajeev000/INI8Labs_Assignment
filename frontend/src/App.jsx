@@ -4,7 +4,7 @@ import FileList from "./components/FileList";
 import DashboardStats from "./components/DashboardStats";
 
 export default function App() {
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://ini8-backend.onrender.com";
   const [activePage, setActivePage] = useState("documents");
 
   return (
